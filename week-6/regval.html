@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> Registration Form</TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+   <script type="text/javascript" src="val.js">
+   </script>
+ </HEAD>
+
+ <BODY>
+  <center><h1>REGISTRATION FORM</h1></center>
+  <table>
+	<form name="reg">
+		<tr>
+			<td>Name:</td>
+			<td><input type="text" name="nm"/></td>
+		</tr>
+		<tr>
+			<td>Password:</td>
+			<td><input type="password" name="pwd"/></td>
+		</tr>
+		<tr>
+			<td>Email id:</td>
+			<td><input type="text" name="eid"/></td>
+		</tr>
+		<tr>
+			<td>Phone no:</td>
+			<td><input type="text" size="10" name="contact"/></td>
+		</tr>
+		
+		<tr>
+			<td>Sex:</td>
+			<td><input type="radio" name="gender" value="male"/>Male</td>
+			<td><input type="radio" name="gender" value="female"/>Female</td>
+		</tr>
+		<tr><td>Date of Birth</td>
+			<td><select name="dob_day">
+					<option value="-">-</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+			</SELECT></td>
+			<td><select name="dob_month">
+					<option value="-">-</option>
+					<option value="jan">January</option>
+					<option value="feb">February</option>
+					<option value="mar">March</option>
+					<option value="may">May</option>
+					<option value="jun">June</option>
+					<option value="jul">July</option>
+					<option value="aug">August</option>
+					<option value="sep">September</option>
+					<option value="oct">October</option>
+					<option value="nov">November</option>
+					<option value="dec">December</option>
+			</select></td>
+			<td><select name="dob_year">
+					<option value="-">-</option>
+					<option value="1995">1995</option>
+					<option value="1996">1996</option>
+					<option value="1997">1997</option>
+					<option value="1998">1998</option>
+					<option value="1999">1999</option>
+					<option value="2001">2001</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Languages Known:</td>
+			<td><input type="checkbox" name="langs">English</td>
+			<td><input type="checkbox" name="langs">Hindi</td>
+			<td><input type="checkbox" name="langs">Telugu</td>
+			<td><input type="checkbox" name="langs">Tamil</td>
+		</tr>
+		<tr><td>Address:</td>
+			<td><textarea rows="10" cols="10" name="add"></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="submit" name="sub" value="SUBMIT" onclick="return validate()"/></td>
+			<td colspan="2"><input type="reset" name="res" value="RESET"/></td>
+		</tr>
+	</form>
+</table>
+</BODY>
+</HTML>

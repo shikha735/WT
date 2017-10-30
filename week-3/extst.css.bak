@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> ext styles </TITLE>
+  <style>
+	h1,p{
+		color:#6600FF;
+		text-align:center;
+		font-family:"Times New Roman"
+	}
+  </style>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+ <BODY>
+ <h1>rfh</h1>
+ <p>efhyi</p>
+ </BODY>
+</HTML>

@@ -1,0 +1,65 @@
+function validate()
+{
+	var trn=revfm.tname.value;
+	var tno=revfm.tno.value;
+	var day=revfm.doj_day.value;
+	var month=revfm.doj_month.value;
+	var c=revfm.cla.value;
+	var seat=revfm.nos.value;
+	var from=revfm.fstat.value;
+	var to=revfm.tstat.value;
+	if(trn==""||trn==null)
+		alert("Enter train name");
+	else if(tno==""||tno==null)
+		alert("enter train no");
+	else if(!valno(tno))
+		alert("enter valid train no");
+	else if(day=="-")
+		alert("Enter Day of Journey");
+	else if(month=="-")
+		alert("Enter Month of Journey");
+	else if(c=="-")
+		alert("Enter class");
+	else if(seat==""||seat==null)
+		alert("enter no of seats");
+	else if(!valnos(seat))
+		alert("No of seats should be 2");
+	else if(from==""||from==null)
+		alert("enter from station");
+	else if(to==""||to==null)
+		alert("enter to station");
+	/*else if((adultres.name1=="")||(adultres.name1==null))
+		alert("Enter passenger-1 name");
+	else if(!passname(adultres.name1))
+		alert("Enter valid passenger-1 name");
+	else if((adultres.age1.value=="")||(adultres.age1.value==null))
+		alert("Enter passenger-1 
+		passage("adultres.age"+i);
+		//passsex("adultres.sex"+i);
+		//passber("adultres.berth"+i);
+	*/
+}
+function valno(n)
+{
+	var npat=/^[0-9]{7}$/;
+	return npat.test(n);
+}
+function valnos(ns)
+{
+	var nspat=/^[2]$/;
+	return nspat.test(ns);
+}
+function passname(nm)
+{
+	var nmpat=/^[a-zA-Z]{6-15};
+	return nmpat.test(nm);
+}
+function passage(age)
+{
+	var agpat=/^[0-9]{1,2}$/;
+	if(agpat.test(age))
+		if(parseInt(age)>6)
+			return true;
+		
+	return false;
+}

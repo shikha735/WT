@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> Reservation Form</TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+
+ <BODY>
+  <h1>RESERVATION FORM</h1>
+  <table>
+  <form name="revfm">
+	<tr>
+		<td>Train Name:</td>
+		<td><input type="text" name="tname"></td>
+		<td>Train Number:</td>
+		<td><input type="text" name="tno"></td>
+	</tr>
+	<tr>
+		<td>Date of Journey</td>
+		<td><select name="doj_day">
+					<option value="-">-</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+			</SELECT>
+			<select name="doj_month">
+					<option value="-">-</option>
+					<option value="jan">January</option>
+					<option value="feb">February</option>
+					<option value="mar">March</option>
+					<option value="may">May</option>
+					<option value="jun">June</option>
+					<option value="jul">July</option>
+					<option value="aug">August</option>
+					<option value="sep">September</option>
+					<option value="oct">October</option>
+					<option value="nov">November</option>
+					<option value="dec">December</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Class:</td>
+			<td><select name="cla">
+					<option value="-">-</option>
+					<option value="1AC">1AC</option>
+					<option value="2AC">2AC</option>
+					<option value="sleeper">Sleeper</option>
+					<option value="3C">3rd Class</option>
+			</select></td>
+			<td>No of Seats:</td>
+			<td><input type="text" name="nos"></td>
+		</tr>
+		<tr>
+			<td>From Station:</td>
+			<td><input type="text" name="fstat"></td>
+			<td>To Station:</td>
+			<td><input type="text" name="tstat"></td>
+		</tr>
+	</form>
+	</table>
+	<table border="1" style="border-collapse:collapse">
+		<form name="adultres">
+			<tr>
+				<th>S.No</th>
+				<th colspan="3">Name</th>
+				<th>Age</th>
+				<th>Sex</th>
+				<th>Berth</th>
+			</tr>
+			<tr>
+				<td>1.</td>
+				<td colspan="3"><input type="text" name="name1"></td>
+				<td><input type="text" name="age1"></td>
+				<td><select name="sex1">
+					<option value="-">-</option>
+					<option value="m">Male</option>
+					<option value="f">Female</option>
+				</select></td>
+				<td><select name="berth1">
+						<option value="-">-</option>
+						<option value="L">Lower</option>
+						<option value="M">Middle</option>
+						<option value="U">Upper</option>
+						<option value="SL">Side Lower</option>
+						<option value="SU">Side Upper</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td colspan="3"><input type="text" name="name2"></td>
+				<td><input type="text" name="age2"></td>
+				<td><select name="sex2">
+					<option value="-">-</option>
+					<option value="m">Male</option>
+					<option value="f">Female</option>
+				</select></td>
+				<td><select name="berth12">
+						<option value="-">-</option>
+						<option value="L">Lower</option>
+						<option value="M">Middle</option>
+						<option value="U">Upper</option>
+						<option value="SL">Side Lower</option>
+						<option value="SU">Side Upper</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td colspan="3"><input type="text" name="name3"></td>
+				<td><input type="text" name="age3"></td>
+				<td><select name="sex3">
+					<option value="-">-</option>
+					<option value="m">Male</option>
+					<option value="f">Female</option>
+				</select></td>
+				<td><select name="berth3">
+						<option value="-">-</option>
+						<option value="L">Lower</option>
+						<option value="M">Middle</option>
+						<option value="U">Upper</option>
+						<option value="SL">Side Lower</option>
+						<option value="SU">Side Upper</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td colspan="3"><input type="text" name="name4"></td>
+				<td><input type="text" name="age4"></td>
+				<td><select name="sex4">
+					<option value="-">-</option>
+					<option value="m">Male</option>
+					<option value="f">Female</option>
+				</select></td>
+				<td><select name="berth4">
+						<option value="-">-</option>
+						<option value="L">Lower</option>
+						<option value="M">Middle</option>
+						<option value="U">Upper</option>
+						<option value="SL">Side Lower</option>
+						<option value="SU">Side Upper</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>5.</td>
+				<td colspan="3"><input type="text" name="name5"></td>
+				<td><input type="text" name="age5"></td>
+				<td><select name="sex5">
+					<option value="-">-</option>
+					<option value="m">Male</option>
+					<option value="f">Female</option>
+				</select></td>
+				<td><select name="berth5">
+						<option value="-">-</option>
+						<option value="L">Lower</option>
+						<option value="M">Middle</option>
+						<option value="U">Upper</option>
+						<option value="SL">Side Lower</option>
+						<option value="SU">Side Upper</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>6.</td>
+				<td colspan="3"><input type="text" name="name6"></td>
+				<td><input type="text" name="age6"></td>
+				<td><select name="sex6">
+					<option value="-">-</option>
+					<option value="m">Male</option>
+					<option value="f">Female</option>
+				</select></td>
+				<td><select name="berth6">
+						<option value="-">-</option>
+						<option value="L">Lower</option>
+						<option value="M">Middle</option>
+						<option value="U">Upper</option>
+						<option value="SL">Side Lower</option>
+						<option value="SU">Side Upper</option>
+				</select></td>
+			</tr>
+		</form>
+	</table>
+	<a href="childres.html">Click here for children below 5yrs</a><br/>
+	<form><input type="submit" value="SUBMIT" name"sub" onclick="return validate()"/>
+	<input type="reset" value="RESET" name"res"/></form>
+ </BODY>
+</HTML>

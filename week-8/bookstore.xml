@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!--<!DOCTYPE bookstore SYSTEM "booksext.dtd">-->
+<!--<?xml-stylesheet type="text/CSS" href="bookcss.xsl"?>-->
+<?xml-stylesheet type="text/CSS" href="booxsl.xsl"?>
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bookschema.xsd">
+	<book category="Web" edition="2" rating="4">
+		<id>12</id>
+		<title>Web Programming</title>
+		<author>Bates</author>
+		<price><![CDATA[is <10$]]></price>
+	</book>
+	<book edition="2">
+		<id>13</id>
+		<title>C programming</title>
+		<author>Fourzan</author>
+		<price><![CDATA[is >10$]]></price>
+	</book>
+</bookstore>

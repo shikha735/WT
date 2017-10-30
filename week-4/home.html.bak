@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE>Home Page </TITLE>
+  <link rel="stylesheet" type="text/CSS" href="template.css"/>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+
+ <BODY>
+  <div id="header">
+	<div id="logo"><img src="ericson.jpeg" height="500%" width="50%"></div>
+	<div id="bookstore"><h1>The Book Store</h1></div>
+  </div>
+  <div id="menu">
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+			<td><a href="home.html">Home</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="login.html">Login</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="regs.html">Registration</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="fiction.html">Catalogue</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="#">Cart</a></td>
+		</tr>
+	</table>
+  </div>
+  <div id="body">
+	<div id="category"> 
+		<h3><a href="fiction.html">Fiction</a></h3> 
+		<h3><a href="nonfic.html">Non-Fiction</a></h3> 
+		<h3><a href="#">Educational</a></h3>
+	</div>
+	<div id="main"> <p> Welcome to The Book Store! Please register to start shopping.
+	</div>
+  </div>
+  <div id="footer"> <h6>copyrights</h6></div>
+ </BODY>
+</HTML>

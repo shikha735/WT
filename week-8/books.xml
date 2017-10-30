@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file://D:/13251A1228/week-8/bookschema.xsd">
+	<book>
+		<id>12</id>
+		<title>Web Programming</title>
+		<author>Bates</author>
+		<price>sdsad</price>
+	</book>
+	
+</bookstore>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<bookstore>
+	<book>
+		<id>12</id>
+		<title>Web Programming</title>
+		<author>Bates</author>
+	</book>
+	<book>
+		<id>13</id>
+		<title>C programming</title>
+		<author>Fourzan</author>
+	</book>
+</bookstore>

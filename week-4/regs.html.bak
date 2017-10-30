@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE>Registration Page </TITLE>
+  <link rel="stylesheet" type="text/CSS" href="template.css"/>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+
+ <BODY>
+  <div id="header">
+	<div id="logo"><img src="ericson.jpeg" height="500%" width="50%"></div>
+	<div id="bookstore"><h1>The Book Store</h1></div>
+  </div>
+  <div id="menu">
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+			<td><a href="home.html">Home</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="login.html">Login</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="regs.html">Registration</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="fiction.html">Catalogue</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="#">Cart</a></td>
+		</tr>
+	</table>
+  </div>
+  <div id="body">
+	<div id="category"> 
+		<h3><a href="#">Fiction</a></h3> 
+		<h3><a href="#">Non-Fiction</a></h3> 
+		<h3><a href="#">Educational</a></h3>
+	</div>
+	<div id="main"> 
+		<center><table>
+		<form>
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" name="fname"/></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" name="lname"/></td>
+			</tr>
+			<tr>
+				<td>User Name:</td>
+				<td><input type="text" name="uname"/></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="pwd"/></td>
+			</tr>
+			<tr>
+				<td>Email id:</td>
+				<td><input type="text" name="eid"/></td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td><input type="radio" name="gender" value="male"/>Male</td>
+				<td><input type="radio" name="gender" value="female"/>Female</td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="status" value="student"/> Student</td>
+				<td><input type="radio" name="status" value="working"/> Working</td>
+				<td><input type="radio" name="status" value="not working"/> Not Working</td>
+			</tr>
+			<tr>
+				<td>Specialization:</td>
+				<td><select>
+					<option value="0">CSE</option>
+					<option value="1">ECE</option>
+					<option value="2">IT</option>
+				</SELECT></td>
+			</tr>
+			<tr>
+				<td> Hobbies:</td>
+				<td><input type="checkbox" name="hobbies"/>Sports</td>
+				<td><input type="checkbox" name="hobbies"/>Music</td>
+				<td><input type="checkbox" name="hobbies"/>Dance</td>
+				<td><input type="checkbox" name="hobbies"/>Painting</td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><textarea rows="10" cols="10" name="add"></textarea></td>
+			</tr>
+			<tr>
+				<td>Contact:</td>
+				<td><input type="text" size="10" name="contact"/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" name="sub" value="SUBMIT"/></td>
+				<td colspan="2"><input type="reset" name="res" value="RESET"/></td>
+			</tr>
+			</form>
+		</table>
+		</center>
+	</div>
+  </div>
+  <div id="footer"> <h6>copyrights</h6></div>
+ </BODY>
+</HTML>

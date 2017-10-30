@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<organization>
+	<employee>
+		<id>1201</id>
+		<name>Nainika</name>
+		<dept>Finance</dept>
+		<salary>35000</salary>
+	</employee>
+	<employee>
+		<id>1206</id>
+		<name>Neha</name>
+		<dept>Mass Comm.</dept>
+		<salary>35000</salary>
+	</employee>
+	<employee>
+		<id>1215</id>
+		<name>Rashmitha</name>
+		<dept>IT</dept>
+		<salary>40000</salary>
+	</employee>
+	<employee>
+		<id>1228</id>
+		<name>Shivani</name>
+		<dept>IT</dept>
+		<salary>40000</salary>
+	</employee>
+</organization>

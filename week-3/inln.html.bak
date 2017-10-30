@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> INLINE STYLES </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+
+ <BODY bgcolor="#FFFF00">
+  <h1 style="color:#6633FF;text-align:center">Welcome to CSS</h1>
+  <p style="color:#336633">CSS was invented by W3C.Using CSS, we can add styles to our HTML page. The latest version of CSS is CSS3.
+  <h4 style="color:#993300;text-align:center">Thank You!!</h4>
+ </BODY>
+</HTML>

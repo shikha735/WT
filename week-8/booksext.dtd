@@ -1,0 +1,12 @@
+	<!ELEMENT bookstore (book+)>
+	<!ELEMENT book (id,title,author,price)>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT author (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ATTLIST book category CDATA "computers">
+	<!ATTLIST book edition CDATA #REQUIRED>
+	<!ATTLIST book rating CDATA #IMPLIED>
+	<!ATTLIST book publisher CDATA #FIXED "TMH">
+	<!ENTITY p "Prof.">
+	

@@ -1,0 +1,48 @@
+#header
+{
+	background-color:#00CC00;
+	height:20%
+}
+#logo
+{
+	float:left;
+	width:30%;
+	height:20%;
+}
+#bookstore
+{
+	width:100%;
+	text-align:center;
+	color:#660033;
+	font-variant:small-caps;
+}
+#menu
+{
+	height:10%;
+	background-color:#FFFF00;
+}
+#body
+{
+	height:50%;
+}
+#category
+{
+	height:1000px;
+	width:30%;
+	background-color:#FFFFCC;
+	float:left;
+}
+#main
+{
+	height:1000px;
+	text-align:center;
+	width:100%;
+	background-color:#66CCFF;
+	line-height:1.5;
+}
+#footer
+{
+	height:5px;
+	background-color:#66CCFF;
+	font-size:3px;
+}

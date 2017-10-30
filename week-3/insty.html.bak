@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> internal styles </TITLE>
+  <link rel="stylesheet" type="text/CSS" href="extst.css"/>
+  <style>
+	h1{
+		color:#3300FF;
+		text-align:center
+	  }
+	p{
+		text-align:right;
+		font-family:Verdana
+	 }
+  </style>
+  
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+ <BODY>
+  <h1 style="color:#000000">Welcome to CSS</h1>
+  <p>CSS was invented by W3C.Using CSS, we can add styles to our HTML page. The latest version of CSS is CSS3.
+  <h1 title="Cascading Style Sheets">CSS</h1>
+  <p>Thank you!!!</p>
+ </BODY>
+</HTML>

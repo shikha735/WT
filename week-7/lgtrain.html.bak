@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> Login form </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <script type="text/javascript" language="javascript">
+	function validate()
+	{
+		var a=document.lgfrm.uname.value;
+		var b=document.lgfrm.pwd.value;
+		if(a==""||a==null)
+		{
+			alert("Enter Username");
+			return false;
+		}
+		else if(b==""||b==null)
+		{
+		
+			alert("Enter Password");
+			return false;
+		}
+		else return true;
+	}
+  </script>
+ </HEAD>
+ <BODY>
+  <H1> LOGIN FORM </h1>
+  <table>
+	<form name="lgfrm" action="trainres.html">
+		<tr>
+			<td>username:</td>
+			<td><input type="text" name="uname"/></td>
+		</tr>
+		<tr>
+			<td>password:</td>
+			<td><input type="password" name="pwd"/></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="sub" value="SUBMIT" onclick="return validate()"/></td>
+			<td><input type="reset" name="res" value="RESET"/></td>
+		</tr>
+	  </form>
+  </table>
+ </BODY>
+</HTML>

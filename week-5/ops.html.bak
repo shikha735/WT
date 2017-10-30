@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> Operations </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <script type="text/javascript" src="op.js">
+  </script>
+ </HEAD>
+
+ <BODY>
+  <input type="button" name="btn1" value="math" onclick="arthop(20,30)"/>
+  <input type="button" name="btn2" value="string" onclick='strop("abc","xyz")'/>
+ </BODY>
+</HTML>

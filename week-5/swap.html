@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> ADD </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <script type="text/javascript">
+	function Swap()
+	{
+	 var a=parseInt(document.getElementById("var1").value);
+	 var b=parseInt(document.getElementById("var2").value);
+	 a=a+b;
+	 b=a-b;
+	 a=a-b;
+	 document.getElementById("para1").innerHTML=a;
+	 document.getElementById("para2").innerHTML=b;
+	}
+  </script>
+ </HEAD>
+ <BODY>
+   <form>
+	A:<input type="text" id="var1"/>
+	B:<input type="text" id="var2"/>
+	<input type="button" name="SWAP" value="SWAP" onclick="Swap()"/>
+	<p id="para1">
+	<p id="para2">
+   </form>
+ </BODY>
+</HTML>

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> Login form </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <script type="text/javascript" language="javascript">
+	function unameval(u)
+	{
+		var upatt=/^[a-zA-Z]{6,15}$/;
+		return upatt.test(u);
+	}
+	function passval(p)
+	{
+		var ppatt=/^[a-zA-Z0-9]{6,15}$/;
+		return ppatt.test(p);
+	}
+	
+	function validate()
+	{
+		var a=document.lgfrm.uname.value;
+		var b=document.lgfrm.pwd.value;
+		if(a==""||a==null)
+		{
+			document.getElementById("user").innerHTML="enter user name";
+			return false;
+		}
+		else if(!unameval(a))
+		{
+			document.getElementById("user").innerHTML="enter valid user name";
+			return false;
+		}
+		else
+			document.getElementById("user").innerHTML=""; 
+		if(b==""||b==null)
+		{
+		
+			document.getElementById("pass").innerHTML="enter password";
+			return false;
+		}
+		else if(!passval(b))
+		{
+			document.getElementById("pass").innerHTML="enter valid password";
+		return false;
+		}
+		else
+		{
+			document.getElementById("pass").innerHTML="";
+			return true;
+		}
+
+	}
+  </script>
+ </HEAD>
+ <BODY>
+  <H1> LOGIN FORM </h1>
+  <table>
+	<form name="lgfrm" action="week3/wel.html">
+		<tr>
+			<td>username:</td>
+			<td><input type="text" name="uname"/></td>
+			<td><p id="user" style="color:red"></td>
+		</tr>
+		<tr>
+			<td>password:</td>
+			<td><input type="password" name="pwd"/></td>
+			<td><p id="pass" style="color:red"></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="sub" value="SUBMIT" onclick="return validate()"/></td>
+			<td><input type="reset" name="res" value="RESET"/></td>
+		</tr>
+	  </form>
+  </table>
+ </BODY>
+</HTML>

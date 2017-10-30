@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file://D:/13251A1228/week-8/example.xsd">
+<id>123</id>
+<name>dsads</name>
+<salary>asdsa</salary>
+</employee>
